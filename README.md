@@ -7,3 +7,4 @@ This project is Windows Forms application that analyzes the measurement results.
 and the variancy. It also makes the chart of the samples and creates a new file with calculated parameters or chosen number of samples from the user's file. 
 ## Technologies
 * C# 7.3
+* .NET Framework

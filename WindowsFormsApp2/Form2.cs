@@ -33,12 +33,7 @@ namespace WindowsFormsApp2
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            Form1 form1 = new Form1();
-            int[] xAxis = new int[listaProbki.Count];
-            float[] yAxis = new float[listaProbki.Count];
             int averageInt = (int)Math.Round(float.Parse(srednia));
-
-            var chart = chart1.ChartAreas[0];
             for (int i = 0; i < listaProbki.Count; i++)
             {
                 chart1.Series["Wszystkie pomiary"].Points.AddXY(i, listaProbki[i]);

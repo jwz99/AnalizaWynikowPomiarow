@@ -161,7 +161,7 @@ namespace WindowsFormsApp2
                     text += " ";
                 }
                 SaveFileDialog dialog = new SaveFileDialog();
-                dialog.Filter = "Plik tekstowy (*.txt)|*.txt";
+                dialog.Filter = "(*.txt)|*.txt";
                 dialog.ShowDialog();
                 if (dialog.FileName != "")
                 {

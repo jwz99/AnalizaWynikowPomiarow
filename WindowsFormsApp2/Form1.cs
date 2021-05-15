@@ -59,7 +59,6 @@ namespace WindowsFormsApp2
             open.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
             open.Filter = "Plik tekstowy (*.txt)|*.txt";
             open.RestoreDirectory = true;
-            StringBuilder sb = new StringBuilder().AppendLine();
             string ln = String.Empty, text = "", n = String.Empty;
             float results = 0, x, indeks = 0;
             if (open.ShowDialog() == DialogResult.OK)
